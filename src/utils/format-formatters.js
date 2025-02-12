@@ -40,22 +40,6 @@ function setShrinkToFit() {
 }
 
 /**
- * 批量修改所有工作表的行高和列宽
- */
-function setAllSheetsRowHeightAndColumnWidth(height, width) {
-    try {
-        var workbook = Application.ActiveWorkbook;
-        for (var i = 1; i <= workbook.Sheets.Count; i++) {
-            var sheet = workbook.Sheets(i);
-            sheet.UsedRange.Rows.RowHeight = height;
-            sheet.UsedRange.Columns.ColumnWidth = width;
-        }
-    } catch (error) {
-        // 忽略错误
-    }
-}
-
-/**
  * 批量设置字体为微软雅黑，字号为9
  */
 function setFontToMicrosoftYaHei() {
