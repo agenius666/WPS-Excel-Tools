@@ -7,7 +7,7 @@
 
 `src/core/row-column-operations.js`包含：`删除当前工作表中的空白行`、`删除当前工作表中和为0的行`、`设置所有工作表的行高为15，列宽为18`、`设置当前工作表的行高为15，列宽为18`、`批量设置所有工作表的行高和列宽`、`批量设置当前工作表的行高和列宽`、`自动调整当前工作表的所有列宽`。
 
-`src/core/sheet-operations.js`包含：`获取所有工作表的名称并插入到指定位置`、`创建新工作表并插入工作表名称`、`删除工作簿中的所有水印（Shapes）`、`调整合并单元格的高度`、`设置所有工作表的打印区域为已使用区域`、`移除工作簿的密码保护`、`隐藏空白工作表`、`隐藏无值工作表`、`规范化所有工作表的视图设置`、`根据输入的工作表名选择工作表`、`根据输入的工作表名排除选择工作表`、`取消所有工作表的保护`。
+`src/core/sheet-operations.js`包含：`创建新工作表并插入工作表名称`、`删除工作簿中的所有水印（Shapes）`、`调整合并单元格的高度`、`设置所有工作表的打印区域为已使用区域`、`移除工作簿的密码保护`、`隐藏空白工作表`、`隐藏无值工作表`、`规范化所有工作表的视图设置`、`根据输入的工作表名选择工作表`、`根据输入的工作表名排除选择工作表`、`取消所有工作表的保护`。
 
 `src/features/ai-model-integration.js`包含：`AI大模型API调用接口设置及UI界面`。
 
@@ -39,7 +39,7 @@
 
 `src/core/row-column-operations.js` includes: `Delete blank rows in the current worksheet`, `Delete rows with a sum of 0 in the current worksheet`, `Set row height to 15 and column width to 18 for all worksheets`, `Set row height to 15 and column width to 18 for the current worksheet`, `Batch set row height and column width for all worksheets`, `Batch set row height and column width for the current worksheet`, `Auto-adjust all column widths in the current worksheet`.
 
-`src/core/sheet-operations.js` includes: `Get names of all worksheets and insert them into a specified location`, `Create a new worksheet and insert the worksheet name`, `Remove all watermarks (Shapes) from the workbook`, `Adjust the height of merged cells`, `Set the print area of all worksheets to the used range`, `Remove password protection from the workbook`, `Hide blank worksheets`, `Hide worksheets without values`, `Standardize view settings for all worksheets`, `Select worksheets based on input worksheet names`, `Exclude worksheets based on input worksheet names`, `Unprotect all worksheets`.
+`src/core/sheet-operations.js` includes: `Create a new worksheet and insert the worksheet name`, `Remove all watermarks (Shapes) from the workbook`, `Adjust the height of merged cells`, `Set the print area of all worksheets to the used range`, `Remove password protection from the workbook`, `Hide blank worksheets`, `Hide worksheets without values`, `Standardize view settings for all worksheets`, `Select worksheets based on input worksheet names`, `Exclude worksheets based on input worksheet names`, `Unprotect all worksheets`.
 
 `src/features/ai-model-integration.js` includes: `AI large model API call interface settings and UI`.
 
